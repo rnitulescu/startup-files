@@ -5,5 +5,7 @@
 	ui = auto
 [alias]
 	lg = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+	lgb = log --graph --all --oneline
 [log]
 	decorate = true
+	default = matching
